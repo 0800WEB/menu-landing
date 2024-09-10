@@ -17,6 +17,12 @@ export default {
         shadowButtons: "0 4px 0 4px rgba(0, 0, 0, 0.25)",
         shadowFood: "5px 20px 20px 0 rgba(0, 0, 0, 0.4)",
       },
+      dropShadow: {
+        shadowCustom1: "5px 20px 20px rgba(0, 0, 0, 0.4)",
+      },
+      letterSpacing: {
+        'custom-3p': '3%' 
+      },
     },
   },
   plugins: [],

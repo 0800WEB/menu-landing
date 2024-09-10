@@ -1,11 +1,14 @@
+import NavBar from "./components/NavBar"
+import SectionHero from "./components/sectionHero"
 
 function App() {
-
-
   return (
-    <>
-      <h4 className='font-bold text-4xl text-white bg-red-400'>hola mundo </h4>
-    </>
+    <div className="h-max bg-baseBg ">
+      <NavBar />
+      <div className=" pl-[115px]">
+        <SectionHero />
+      </div>
+    </div>
   )
 }
 
