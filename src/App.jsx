@@ -1,5 +1,6 @@
-import NavBar from "./components/NavBar"
-import SectionHero from "./components/sectionHero"
+import NavBar from "./components/NavBar";
+import Section3d from "./components/Section3d";
+import SectionHero from "./components/sectionHero";
 
 function App() {
   return (
@@ -7,9 +8,10 @@ function App() {
       <NavBar />
       <div className=" pl-[115px]">
         <SectionHero />
+        <Section3d />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
