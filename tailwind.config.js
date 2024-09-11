@@ -12,6 +12,7 @@ export default {
       },
       borderRadius: {
         radiusButton: "50px",
+        radiusCardReview: "30px",
       },
       boxShadow: {
         shadowButtons: "0 4px 0 4px rgba(0, 0, 0, 0.25)",
@@ -19,6 +20,7 @@ export default {
       },
       dropShadow: {
         shadowCustom1: "5px 20px 20px rgba(0, 0, 0, 0.4)",
+        shadowButtons: "0 4px 4px rgba(0, 0, 0, 0.25)",
       },
       letterSpacing: {
         'custom-3p': '3%' 

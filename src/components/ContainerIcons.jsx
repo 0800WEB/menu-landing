@@ -5,7 +5,7 @@ import IconComponent from "./IconComponent"
 
 const ContainerIcons = () => {
     return (
-        <div className="flex gap-10 ">
+        <div className="flex gap-4 sm:gap-7 md:gap-10 items-center">
             <IconComponent name="Facebook" iconPath={iconFacebook} />
             <IconComponent name="Instagram" iconPath={iconInstagram} />
             <IconComponent name="Twitter" iconPath={iconTwitter} />
