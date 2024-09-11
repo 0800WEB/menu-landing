@@ -6,11 +6,11 @@ const ButtonsScroll = () => {
     return (
         <div className=' flex items-center gap-4'>
             <button>
-                <img src={arrowToBottom} alt="Flecha Hacia Abajo" />
+                <img className="w-5 sm:w-6 md:size-full" src={arrowToBottom} alt="Flecha Hacia Abajo" />
             </button>
-            <img src={lineStroke} alt="Linea Divisora" />
+            <img className="h-6 sm:h-8" src={lineStroke} alt="Linea Divisora" />
             <button>
-                <img src={arrowToTop} alt="Flecha Hacia Arriba" />
+                <img className="w-5 sm:w-6 md:size-full" src={arrowToTop} alt="Flecha Hacia Arriba" />
             </button>
         </div>
     )
