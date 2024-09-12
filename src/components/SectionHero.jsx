@@ -3,7 +3,7 @@ import FloatingActionBar from "./FloatingActionBar"
 
 const SectionHero = () => {
     return (
-        <div className="h-max md:h-screen flex flex-col relative gap-10 md:gap-0 [&_p]:text-pretty [&_p]:leading-[19px] md:[&_p]:leading-8 [&_p]:tracking-custom-3p [&_p]:text-xs [&_p]:sm:text-base [&_p]:md:text-lg [&_p]:lg:text-lg [&_p]:xl:text-xl md:[&_h2]:leading-[50px] [&_h2]:tracking-custom-3p">
+        <div id="section-hero" className="h-max md:h-screen flex flex-col relative gap-10 md:gap-0 [&_p]:text-pretty [&_p]:leading-[19px] md:[&_p]:leading-8 [&_p]:tracking-custom-3p [&_p]:text-xs [&_p]:sm:text-base [&_p]:md:text-lg [&_p]:lg:text-lg [&_p]:xl:text-xl md:[&_h2]:leading-[50px] [&_h2]:tracking-custom-3p">
             <div className="h-full flex flex-col  gap-10 md:gap-0 md:flex-row items-center md:items-start md:justify-between pt-6 [&_section]:flex [&_section]:flex-col [&_section]:gap-4 relative">
                 <div className="flex flex-col gap-8 md:gap-[60px] md:pt-[86px] [&_h2]:font-extrabold">
                     <section className="max-w-xl">

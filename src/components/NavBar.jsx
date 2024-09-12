@@ -25,6 +25,7 @@ const NavBar = () => {
     }, []);
 
     return (
+
         <div
             className={`${isScrolled ? 'h-[40px]' : 'h-[110px]'
                 } bg-blackPrimary sticky top-0 z-50 flex justify-between items-center pl-[115px] pr-[130px] transition-all duration-300 ease-in-out`}
@@ -35,12 +36,12 @@ const NavBar = () => {
             <div className='flex gap-20'>
                 {isScrolled ? (
                     <>
-                        <img src={cameraIcon} alt="Camera Icon" />
-                        <img src={homeIcon} alt="Home Icon" />
+                        <img src={cameraIcon} alt="Camera Icon" className="cursor-pointer"/>
+                       <a href="section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer"/></a>
                     </>
                 ) : (
                     <>
-                        <ButtonPrimary children={"Inicio"} widthClass={"w-[100px]"} />
+                       <ButtonPrimary children={"Inicio"} widthClass={"w-[100px]"} />
                         <button>
                             <p className='font-semibold text-[22px] leading-[33px] text-whiteCustom'>
                                 Miralo en vivo
