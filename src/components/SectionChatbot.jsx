@@ -1,20 +1,22 @@
 import FloatingActionBar from './FloatingActionBar'
 import chefBot from '../assets/images/chefBot.png'
-
+import "../styles/animationLoop.css"
 const SectionChatbot = () => {
     return (
-        <div className='h-max md:h-screen flex flex-col relative border border-pink-400'>
-            <div className='pt-12 flex'>
-                <div className='flex flex-col gap-5 pt-[4.5rem]'>
-                    <h4 className='max-w-3xl text-6xl text-balance font-bold leading-[4.4rem] tracking-custom-3p '>¡PIDE INTELIGENTE! <br /><span className='text-highlight'>USA NUESTRO CHEFBOT</span></h4>
+        <div className='h-screen md:h-screen flex flex-col relative px-4 md:px-0'>
+            <div className='h-full pt-12 flex flex-col md:flex-row [&_p]:text-pretty [&_p]:leading-5 md:[&_p]:leading-8 [&_p]:tracking-custom-3p [&_p]:text-xs [&_p]:sm:text-base  [&_p]:lg:text-lg [&_p]:xl:text-xl'>
+                <div className='h-[50%] md:h-full flex flex-col gap-5 pt-4 md:pt-[4.5rem] md:w-1/2'>
+                    <h4 className='md:max-w-[46rem] font-extrabold tracking-custom-3p text-2xl sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl leading-[3.125rem] lg:leading-[4.25rem] xl:text-nowrap'>
+                        ¡PIDE INTELIGENTE! <br /> <span className='text-highlight'>USA NUESTRO CHEFBOT</span>
+                    </h4>
                     <p className='max-w-xl text-xl leading-8 tracking-custom-3p text-pretty'>
-                        Buscas tu próximo platillo favorito? ¡Déjalo en manos de nuestra IA avanzada! Con nuestro chefbot inteligente, descubre recomendaciones personalizadas según tus gustos y valoraciones anteriores.
-                        ¿No sabes qué elegir? Permítenos guiarte hacia las mejores opciones.
-                        ¡Haz tu pedido con un solo clic y disfruta de una experiencia única!
+                        ¿No sabes qué elegir? Nuestro chatbot utiliza inteligencia artificial para guiarte en la selección de tu comida ideal.
+                        Simplemente escríbelo, como “Hola, muéstrame alimentos sin cebolla,” y recibirás recomendaciones personalizadas basadas en tus preferencias y en las valoraciones de otros comensales.
+                        ¡Decidir qué comer nunca fue tan fácil!
                     </p>
                 </div>
-                <div>
-                    <img className='size-11/12' src={chefBot} alt="Chef Bot" />
+                <div className='mx-auto  md:w-1/2 h-96 md:h-full md:flex items-center xl:block  '>
+                    <img className='h-full md:h-fit animation' src={chefBot} alt="Chef Bot" />
                 </div>
             </div>
             <FloatingActionBar />

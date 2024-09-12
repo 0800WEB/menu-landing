@@ -11,13 +11,12 @@ const CardReview = ({ photoProfile, review, rating }) => {
         const emptyStars = 5 - Math.ceil(rating); // Estrellas vacías
 
         return (
-            <div className="flex gap-[5.46px]">
+            <div className="flex gap-[0.35rem] [&_img]:size-[0.6rem] [&_img]:md:size-full [&_img]:md:max-w-[1.38rem] [&_img]:md:max-h-5 ">
                 {[...Array(fullStars)].map((_, index) => (
                     <img
                         key={`full-${index}`}
                         src={starOrange}
                         alt="Full Star"
-                        className="lg:w-[22px] lg:h-[20.5px]"
                     />
                 ))}
                 {hasHalfStar && (
@@ -25,7 +24,6 @@ const CardReview = ({ photoProfile, review, rating }) => {
                         key="half"
                         src={starOrange}
                         alt="Half Star"
-                        className="lg:w-[22px] lg:h-[20.5px]"
                         style={{ clipPath: 'inset(0 50% 0 0)' }}
                     />
                 )}
@@ -34,7 +32,6 @@ const CardReview = ({ photoProfile, review, rating }) => {
                         key={`empty-${index}`}
                         src={starGray}
                         alt="Empty Star"
-                        className="lg:w-[22px] lg:h-[20.5px]"
                     />
                 ))}
             </div>
@@ -42,13 +39,13 @@ const CardReview = ({ photoProfile, review, rating }) => {
     };
 
     return (
-        <div className="flex flex-col gap-[11px] drop-shadow-shadowCustom1">
+        <div className="flex flex-col gap-3 drop-shadow-shadowCustom1">
             <div className="flex">
                 {renderStars(rating)}
             </div>
-            <div className="bg-whiteCustom w-[350px] h-[110px] rounded-radiusCardReview flex items-center gap-[10px] px-[15px]">
-                <img className="size-[90px] rounded-full object-cover shrink-0" src={photoProfile} alt="Profile Photo" />
-                <p className="text-[11px] leading-[16.5px]">{review}</p>
+            <div className="bg-whiteCustom w-36 h-[3.7rem] md:max-w-[22rem] md:w-full md:h-full md:max-h-28 rounded-radiusCardReview flex items-center gap-3 px-4 py-3">
+                <img className="size-9 md:size-16 lg:size-20 xl:size-[5.5rem] rounded-full object-cover shrink-0" src={photoProfile} alt="Profile Photo" />
+                <p className="text-[5px] md:text-xs md:leading-[16.5px]">{review}</p>
             </div>
         </div>
     );

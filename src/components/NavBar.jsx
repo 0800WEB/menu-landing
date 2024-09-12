@@ -26,13 +26,14 @@ const NavBar = () => {
 
     return (
         <div
-            className={`${isScrolled ? 'h-[40px]' : 'h-[110px]'
-                } bg-blackPrimary sticky top-0 z-50 flex justify-between items-center pl-[115px] pr-[130px] transition-all duration-300 ease-in-out`}
+            className={`${isScrolled ? 'h-10' : 'h-28'}
+             bg-blackPrimary sticky top-0 z-50 flex justify-between items-center px-4 sm:px-16 md:px-20 lg:pl-[7.2rem] lg:pr-[8.1rem]  transition-all duration-300 ease-in-out
+             `}
         >
             <div>
-                <img className={`${isScrolled ? 'w-[139px] h-[40px]' : 'w-[232px] h-[50px]'}`} src={foodBrand} alt="Icon Brand" />
+                <img className={`${isScrolled ? 'w-[139px] h-[40px]' : 'md:w-[232px] md:h-[50px]'}`} src={foodBrand} alt="Icon Brand" />
             </div>
-            <div className='flex gap-20'>
+            <div className='hidden md:flex gap-20'>
                 {isScrolled ? (
                     <>
                         <img src={cameraIcon} alt="Camera Icon" />
@@ -48,6 +49,10 @@ const NavBar = () => {
                         </button>
                     </>
                 )}
+            </div>
+            <div className="flex gap-6 md:hidden">
+                <img src={cameraIcon} alt="Camera Icon" />
+                <img src={homeIcon} alt="Home Icon" />
             </div>
         </div>
     );
