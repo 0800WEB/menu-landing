@@ -5,7 +5,7 @@ import "../styles/animationLoop.css"
 
 const SectionMenu = () => {
     return (
-        <div className="h-screen md:h-screen flex flex-col relative ">
+        <div id="section-menu" className="h-screen md:h-screen flex flex-col relative ">
             <div className="flex flex-col-reverse justify-end md:justify-start md:flex-row h-full [&>div]:md:w-1/2 md:pt-24 md:gap-12">
                 <div className="h-[50%] md:h-full relative w-max mx-auto ">
                     <img className="max-w-64 max-h-full pt-16 object-contain absolute top-0 left-0 md:hidden xl:inline  animationtoTop" src={menu1Cellphone2} alt="Menu Cellphone" />

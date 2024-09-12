@@ -3,7 +3,7 @@ import chefBot from '../assets/images/chefBot.png'
 import "../styles/animationLoop.css"
 const SectionChatbot = () => {
     return (
-        <div className='h-screen md:h-screen flex flex-col relative px-4 md:px-0 '>
+        <div id="section-chatbot" className='h-screen md:h-screen flex flex-col relative px-4 md:px-0 '>
             <div className='h-full pt-12 flex flex-col md:flex-row  [&_p]:text-pretty [&_p]:leading-5 md:[&_p]:leading-8 [&_p]:tracking-custom-3p [&_p]:text-xs [&_p]:sm:text-base  [&_p]:lg:text-lg [&_p]:xl:text-xl'>
                 <div className='h-[40%] md:h-full flex flex-col gap-5 pt-4 md:pt-[4.5rem] md:w-1/2'>
                     <h4 className='md:max-w-[46rem] font-extrabold tracking-custom-3p text-2xl sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl leading-9 md:leading-[3.125rem] lg:leading-[4.25rem] xl:text-nowrap'>

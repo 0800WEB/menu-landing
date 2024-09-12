@@ -7,7 +7,7 @@ const SectionHero = () => {
             <div className="h-full flex flex-col gap-10 md:gap-0 md:flex-row items-center md:items-start md:justify-between pt-6 [&_section]:flex [&_section]:flex-col [&_section]:gap-4 relative">
                 <div className="flex flex-col gap-8 sm:gap-4 md:gap-8 lg:gap-14 pt-6 md:pt-20 sm:pt-14 lg:pt-[5.2rem] [&_h2]:font-extrabold">
                     <section className="max-w-xl">
-                        <h2 className="leading-8 text-nowrap text-2xl sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl md:leading-[3.125rem] md:leading-10 lg:leading-[4.25rem]">¡ESTO ES <span className="text-highlight">FOOD!</span></h2>
+                        <h2 className="leading-8 text-nowrap text-2xl sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl md:leading-[3.125rem] lg:leading-[4.25rem]">¡ESTO ES <span className="text-highlight">FOOD!</span></h2>
                         <p >En Food, fusionamos lo mejor de la tecnología y la gastronomía para ofrecerte una experiencia culinaria única. </p>
                     </section>
                     <section className="max-w-lg">

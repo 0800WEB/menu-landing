@@ -7,7 +7,7 @@ import "../styles/animationLoop.css"
 
 export default function Section3d() {
   return (
-    <div className="h-dvh border p-4 md:h-screen relative ">
+    <div id="section-3d" className="h-dvh border p-4 md:h-screen relative ">
       <div className="h-full flex flex-col pt-14 md:pt-24 gap-10 md:gap-0 items-center md:items-start md:justify-between [&_section]:flex [&_section]:flex-col [&_section]:gap-4 relative">
         <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between h-full w-full">
           <div className="flex flex-col gap-8 md:gap-[0px] [&_h2]:font-extrabold">

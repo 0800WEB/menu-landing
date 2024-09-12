@@ -43,10 +43,10 @@ const NavBar = () => {
             <div className='hidden md:flex gap-20'>
                 {isScrolled ? (
                     <>
+                        <a href="#section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer" /></a>
                         <button onClick={() => openModal()}>
                             <img src={cameraIcon} alt="Camera Icon" className="cursor-pointer" />
                         </button>
-                        <a href="#section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer" /></a>
                     </>
                 ) : (
                     <>

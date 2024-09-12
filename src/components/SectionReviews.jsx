@@ -7,7 +7,7 @@ import { reviewData3 } from '../assets/other-assets/reviewsMock'
 
 const SectionReviews = () => {
     return (
-        <div className='h-dvh md:h-screen flex flex-col relative'>
+        <div id="section-reviews" className='h-dvh md:h-screen flex flex-col relative'>
             <div className='h-full md:h-full flex justify-end md:justify-between flex-col-reverse md:flex-row pt-16 md:pt-10 gap-6 md:gap-8'>
                 <div className='animation overflow-hidden md:overflow-visible md:h-full md:w-1/2 lg:w-[60%] flex justify-center md:justify-center relative pl-5 md:pl-0'>
                     <img className='h-[90%] md:size-fit md:max-h-[42rem] md:max-w-[29rem]' src={cellPhone} alt="Cellphone Review Coupon" />
