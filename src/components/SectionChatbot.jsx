@@ -1,4 +1,3 @@
-import FloatingActionBar from './FloatingActionBar'
 import chefBot from '/images/chefBot.png'
 import "../styles/animationLoop.css"
 const SectionChatbot = () => {
@@ -19,7 +18,6 @@ const SectionChatbot = () => {
                     <img className='h-full md:h-fit animation' src={chefBot} alt="Chef Bot" />
                 </div>
             </div>
-            <FloatingActionBar />
         </div>
     )
 }

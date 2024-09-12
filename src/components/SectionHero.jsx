@@ -1,5 +1,4 @@
 import woman from "/images/woman-heroSeccion.png"
-import FloatingActionBar from "./FloatingActionBar"
 
 const SectionHero = () => {
     return (
@@ -21,7 +20,6 @@ const SectionHero = () => {
                     <img className="animation drop-shadow-shadowCustom1 object-contain w-[85%]" src={woman} alt="Woman Smiling" />
                 </div>
             </div>
-            <FloatingActionBar />
         </div>
     )
 }

@@ -11,7 +11,7 @@ const FloatingActionBar = () => {
     const closeModal = () => setIsModalOpen(false);
 
     return (
-        <div className="hidden w-full md:flex justify-between md:absolute bottom-8">
+        <div className="w-full flex justify-between absolute bottom-6 md:bottom-8">
             <ContainerIcons />         
             <ButtonPrimary action={openModal} children={"Miralo en vivo"} widthClass={"w-[7.5rem] sm:w-[9.7rem] md:w-48"} />
             <VideoModal isOpen={isModalOpen} onClose={() => closeModal()} />

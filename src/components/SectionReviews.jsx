@@ -1,4 +1,3 @@
-import FloatingActionBar from './FloatingActionBar'
 import cellPhone from '/images/cell-phone-coupon.png'
 import CardReview from './CardReview'
 import { reviewData1 } from '../assets/other-assets/reviewsMock'
@@ -29,9 +28,7 @@ const SectionReviews = () => {
                         </p>
                     </div>
                 </div>
-
             </div>
-            <FloatingActionBar />
         </div>
     )
 }

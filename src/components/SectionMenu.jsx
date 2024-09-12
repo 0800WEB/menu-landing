@@ -1,4 +1,3 @@
-import FloatingActionBar from "./FloatingActionBar"
 import menu1Cellphone1 from '/images/cellphoneone.png'
 import menu1Cellphone2 from '/images/cellphonetwo.png'
 import "../styles/animationLoop.css"
@@ -20,7 +19,6 @@ const SectionMenu = () => {
                     </p>
                 </div>
             </div>
-            <FloatingActionBar />
         </div>
     )
 }
