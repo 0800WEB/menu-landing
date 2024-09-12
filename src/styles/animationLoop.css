@@ -1,0 +1,39 @@
+.animation {
+    animation: moveXY 900ms infinite alternate;
+  }
+  
+  @keyframes moveXY {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(4px, -4px);
+    }
+  }
+  
+  .animationtoTop {
+    animation: moveX 900ms infinite alternate;
+  }
+  
+  @keyframes moveX {
+    0% {
+      transform: translate(0, -8px);
+    }
+    100% {
+      transform: translate(0, 0px);
+    }
+  }
+  
+  .animationtoRight {
+    animation: moveY 900ms infinite alternate;
+  }
+  
+  @keyframes moveY {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(4px, -8px);
+    }
+  }
+  
