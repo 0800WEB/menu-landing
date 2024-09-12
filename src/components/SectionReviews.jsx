@@ -21,7 +21,7 @@ const SectionReviews = () => {
                 </div>
                 <div className='md:w-1/2 md:pt-[5.25rem] [&_p]:text-pretty [&_p]:leading-5 md:[&_p]:leading-8 [&_p]:tracking-custom-3p [&_p]:text-xs [&_p]:sm:text-base  [&_p]:lg:text-lg [&_p]:xl:text-xl'>
                     <div className='flex flex-col gap-[1.125rem] pr-4 pb-4 md:p-0'>
-                        <h2 className='font-extrabold tracking-custom-3p text-2xl sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl leading-[3.125rem] lg:leading-[4.25rem]'>¡CALIFICA Y GANA <span className='text-highlight'>DESCUENTOS!</span></h2>
+                        <h2 className='leading-9 font-extrabold tracking-custom-3p text-2xl sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl md:leading-[3.125rem] lg:leading-[4.25rem]'>¡CALIFICA Y GANA <span className='text-highlight'>DESCUENTOS!</span></h2>
                         <p >
                             Califica los platillos que pruebes y acumula puntos por tus valoraciones.
                             ¡Entre más opinas, más ganas! Con esos puntos, desbloquea cupones de descuento exclusivos para tus próximos pedidos.

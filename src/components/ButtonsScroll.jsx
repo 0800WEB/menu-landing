@@ -3,6 +3,7 @@ import arrowToTop from "../assets/svg/arrow-to-top.svg"
 import lineStroke from "../assets/svg/line-stroke.svg"
 
 const ButtonsScroll = () => {
+    
     return (
         <div className=' flex items-center gap-4'>
             <button>

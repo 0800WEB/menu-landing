@@ -3,6 +3,7 @@ import foodBrand from '../assets/svg/food-brand.svg';
 import ButtonPrimary from './ButtonPrimary';
 import homeIcon from '../assets/svg/home-icon.svg';
 import cameraIcon from '../assets/svg/camera-icon.svg';
+import VideoModal from './modalVideo';
 
 const NavBar = () => {
 
@@ -24,6 +25,11 @@ const NavBar = () => {
         };
     }, []);
 
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
+
     return (
 
         <div
@@ -37,13 +43,15 @@ const NavBar = () => {
             <div className='hidden md:flex gap-20'>
                 {isScrolled ? (
                     <>
-                        <img src={cameraIcon} alt="Camera Icon" className="cursor-pointer"/>
-                       <a href="section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer"/></a>
+                        <button onClick={() => openModal()}>
+                            <img src={cameraIcon} alt="Camera Icon" className="cursor-pointer" />
+                        </button>
+                        <a href="#section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer" /></a>
                     </>
                 ) : (
                     <>
-                       <ButtonPrimary children={"Inicio"} widthClass={"w-[100px]"} />
-                        <button>
+                        <ButtonPrimary children={"Inicio"} widthClass={"w-[100px]"} />
+                        <button onClick={() => openModal()}>
                             <p className='font-semibold text-[22px] leading-[33px] text-whiteCustom'>
                                 Miralo en vivo
                             </p>
@@ -52,9 +60,12 @@ const NavBar = () => {
                 )}
             </div>
             <div className="flex gap-6 md:hidden">
-                <img src={cameraIcon} alt="Camera Icon" />
+                <button onClick={() => openModal()}>
+                    <img src={cameraIcon} alt="Camera Icon" />
+                </button>
                 <img src={homeIcon} alt="Home Icon" />
             </div>
+            <VideoModal isOpen={isModalOpen} onClose={() => closeModal()} />
         </div>
     );
 };
