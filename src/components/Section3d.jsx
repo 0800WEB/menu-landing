@@ -1,7 +1,7 @@
-import cell3d from "../assets/images/cell3d.png";
-import snack from "../assets/images/snack.png";
-import potatoes from "../assets/images/potatoes.png";
-import sushi from "../assets/images/sushi.png";
+import cell3d from "/images/cell3d.png";
+import snack from "/images/snack.png";
+import potatoes from "/images/potatoes.png";
+import sushi from "/images/sushi.png";
 import FloatingActionBar from "./FloatingActionBar";
 import "../styles/animationLoop.css"
 

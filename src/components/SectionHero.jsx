@@ -1,4 +1,4 @@
-import woman from "../assets/images/woman-heroSeccion.png"
+import woman from "/images/woman-heroSeccion.png"
 import FloatingActionBar from "./FloatingActionBar"
 
 const SectionHero = () => {

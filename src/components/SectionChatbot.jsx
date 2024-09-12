@@ -1,5 +1,5 @@
 import FloatingActionBar from './FloatingActionBar'
-import chefBot from '../assets/images/chefBot.png'
+import chefBot from '/images/chefBot.png'
 import "../styles/animationLoop.css"
 const SectionChatbot = () => {
     return (

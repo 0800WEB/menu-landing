@@ -1,5 +1,5 @@
 import FloatingActionBar from './FloatingActionBar'
-import cellPhone from '../assets/images/cell-phone-coupon.png'
+import cellPhone from '/images/cell-phone-coupon.png'
 import CardReview from './CardReview'
 import { reviewData1 } from '../assets/other-assets/reviewsMock'
 import { reviewData2 } from '../assets/other-assets/reviewsMock'
