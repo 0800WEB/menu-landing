@@ -7,7 +7,7 @@ import SectionReviews from "./components/SectionReviews"
 import "./styles/parallax.css"
 function App() {
   return (
-    <div className="h-max bg-baseBg">
+    <div className="h-max bg-baseBg pb-20">
       <NavBar />
       <div className="px-4 sm:px-[60px] md:px-20 lg:px-28">
         <SectionHero className="parallax-section" />
