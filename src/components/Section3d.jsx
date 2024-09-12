@@ -6,7 +6,7 @@ import FloatingActionBar from "./FloatingActionBar";
 
 export default function Section3d() {
   return (
-    <div className="h-dvh border border-yellow-500 p-4 md:h-screen relative ">
+    <div id="section-3d"  className="h-dvh border border-yellow-500 p-4 md:h-screen relative ">
       <div className="h-full flex flex-col  gap-10 md:gap-0 md:flex-row items-center md:items-start md:justify-between pt-6 [&_section]:flex [&_section]:flex-col [&_section]:gap-4 relative">
         <div className="flex flex-col gap-8 md:gap-[0px] md:pt-[86px] [&_h2]:font-extrabold">
           <section className="max-w-xl">

@@ -38,7 +38,7 @@ const NavBar = () => {
                 {isScrolled ? (
                     <>
                         <img src={cameraIcon} alt="Camera Icon" className="cursor-pointer"/>
-                       <a href="section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer"/></a>
+                       <a href="#section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer"/></a>
                     </>
                 ) : (
                     <>
