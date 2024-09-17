@@ -16,7 +16,7 @@ function App() {
         <SectionReviews />
         <SectionChatbot />
         <SectionMenu />
-        <div className="w-full bottom-0 left-0 sticky ">
+        <div className="w-full bottom-0 left-0 sticky z-40">
           <FloatingActionBar />
         </div>
       </div>

@@ -63,7 +63,7 @@ const NavBar = () => {
                 <button onClick={() => openModal()}>
                     <img src={cameraIcon} alt="Camera Icon" />
                 </button>
-                <img src={homeIcon} alt="Home Icon" />
+                <a href="#section-hero" ><img src={homeIcon} alt="Home Icon" className="cursor-pointer" /></a>
             </div>
             <VideoModal isOpen={isModalOpen} onClose={() => closeModal()} />
         </div>
