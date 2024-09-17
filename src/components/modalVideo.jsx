@@ -13,7 +13,7 @@ const VideoModal = ({ isOpen, onClose }) => {
                 setScaleClass("scale-110");
             }
             setTimeout(() => setScaleClass(""), 1000);
-        }, 8000);
+        }, 8000); 
 
         return () => clearInterval(interval);
     }, [activeThumbnail]);
@@ -51,7 +51,7 @@ const VideoModal = ({ isOpen, onClose }) => {
             <div className="absolute bottom-8 sm:bottom-2 flex gap-4">
                 <button
                     onClick={() => selectVideo("https://www.youtube.com/embed/UlaHdixlwBY?autoplay=1&loop=1&playlist=UlaHdixlwBY&quality=hd1080", "UlaHdixlwBY")}
-                    className={`w-16 h-16 bg-gray-300 rounded-lg overflow-hidden transition-transform transform ${activeThumbnail === "UlaHdixlwBY" ? "" : scaleClass}`}
+                    className={`w-16 h-16 bg-gray-300 rounded-lg overflow-hidden transition-transform transform ${activeThumbnail === "UlaHdixlwBY" ? "" : scaleClass} hover:scale-110`}
                 >
                     <img
                         className="w-full h-full object-cover"
@@ -61,7 +61,7 @@ const VideoModal = ({ isOpen, onClose }) => {
                 </button>
                 <button
                     onClick={() => selectVideo("https://www.youtube.com/embed/xLZ5c0273yI?autoplay=1&loop=1&playlist=xLZ5c0273yI&quality=hd1080", "xLZ5c0273yI")}
-                    className={`w-16 h-16 bg-gray-300 rounded-lg overflow-hidden transition-transform transform ${activeThumbnail === "xLZ5c0273yI" ? "" : scaleClass}`}
+                    className={`w-16 h-16 bg-gray-300 rounded-lg overflow-hidden transition-transform transform ${activeThumbnail === "xLZ5c0273yI" ? "" : scaleClass} hover:scale-110`}
                 >
                     <img
                         className="w-full h-full object-cover"

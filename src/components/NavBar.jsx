@@ -33,8 +33,8 @@ const NavBar = () => {
     return (
 
         <div
-            className={`${isScrolled ? 'h-10' : 'h-28'}
-             bg-blackPrimary sticky top-0 z-50 flex justify-between items-center px-4 sm:px-16 md:px-20 lg:pl-[7.2rem] lg:pr-[8.1rem]  transition-all duration-300 ease-in-out
+            className={`${isScrolled ? 'h-10' : 'h-28'} ${isModalOpen ? 'z-[60]' :'z-50'}
+             bg-blackPrimary sticky top-0 flex justify-between items-center px-4 sm:px-16 md:px-20 lg:pl-[7.2rem] lg:pr-[8.1rem]  transition-all duration-300 ease-in-out
              `}
         >
             <div>
