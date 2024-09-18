@@ -8,7 +8,7 @@ import FloatingActionBar from "./components/FloatingActionBar";
 import "./styles/parallax.css"
 function App() {
   return (
-    <div className="h-max bg-baseBg relative">
+    <div className="h-max bg-baseBg relative break-all">
       <NavBar />
       <div className="px-4 sm:px-[60px] md:px-20 lg:px-28 relative">
         <SectionHero />

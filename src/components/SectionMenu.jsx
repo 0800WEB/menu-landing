@@ -6,7 +6,7 @@ const SectionMenu = () => {
     return (
         <div id="section-menu" className="h-screen md:h-screen flex flex-col relative ">
             <div className="flex flex-col-reverse justify-end md:justify-start md:flex-row h-full [&>div]:md:w-1/2 md:pt-24 md:gap-12">
-                <div className="h-[50%] md:h-full relative w-max mx-auto ">
+                <div className="w-full h-[50%] md:h-full relative mx-auto flex items-center ">
                     <img className="max-w-64 max-h-full pt-16 object-contain absolute top-0 left-0 md:hidden xl:inline  animationtoTop" src={menu1Cellphone1} alt="Menu Cellphone" />
                     <img className="my-auto lg:max-w-lg max-h-full md:absolute top-0 lg:right-0 animationtoRight" src={menu1Cellphone2} alt="Menu Cellphone" />
                 </div>
