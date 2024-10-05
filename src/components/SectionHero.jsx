@@ -11,7 +11,7 @@ const SectionHero = () => {
                     </section>
                     <section className="max-w-lg">
                         <h2 className="text-xl sm:text-2xl lg:text-4xl xl:leading-9">Descubre tu plato ideal con nuestro menú online</h2>
-                        <p className="break-all" >Revolucionamos la experiencia gastronómica. Nuestro menú online permite a los comensales conocer a fondo cada platillo,
+                        <p >Revolucionamos la experiencia gastronómica. Nuestro menú online permite a los comensales conocer a fondo cada platillo,
                             optimizando la oferta del restaurante a través de valoraciones y encuestas para que cada comida sea una experiencia única y personalizada.
                         </p>
                     </section>

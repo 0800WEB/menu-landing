@@ -5,10 +5,10 @@ import SectionHero from "./components/SectionHero";
 import SectionMenu from "./components/SectionMenu"
 import SectionReviews from "./components/SectionReviews"
 import FloatingActionBar from "./components/FloatingActionBar";
-import "./styles/parallax.css"
+import "./styles/breakWord.css"
 function App() {
   return (
-    <div className="h-max bg-baseBg relative break-all">
+    <div className="h-max bg-baseBg relative break-allWords">
       <NavBar />
       <div className="px-4 sm:px-[60px] md:px-20 lg:px-28 relative">
         <SectionHero />
